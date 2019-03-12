@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="57113eff678741538970fa0cc23aaa53" Name="Diagram1">
+        <EntityTypeShape EntityType="OnlineShopModel.About" Width="1.5" PointX="12.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineShopModel.Category" Width="1.5" PointX="3" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineShopModel.Contact" Width="1.5" PointX="12.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineShopModel.Content" Width="1.5" PointX="5.25" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineShopModel.ContentTag" Width="1.5" PointX="7.5" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineShopModel.Credential" Width="1.5" PointX="10" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineShopModel.FeedBack" Width="1.5" PointX="12.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineShopModel.Footer" Width="1.5" PointX="14.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineShopModel.Language" Width="1.5" PointX="0.75" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineShopModel.Menu" Width="1.5" PointX="12" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineShopModel.MenuType" Width="1.5" PointX="9.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineShopModel.Order" Width="1.5" PointX="3" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineShopModel.OrderDetail" Width="1.5" PointX="5.25" PointY="13.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineShopModel.Product" Width="1.5" PointX="3" PointY="12.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineShopModel.ProductCategory" Width="1.5" PointX="0.75" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineShopModel.Role" Width="1.5" PointX="7.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineShopModel.Slide" Width="1.5" PointX="14.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineShopModel.SystemConfig" Width="1.5" PointX="14.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineShopModel.Tag" Width="1.5" PointX="5.25" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineShopModel.User" Width="1.5" PointX="10" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineShopModel.UserGroup" Width="1.5" PointX="7.75" PointY="8.625" IsExpanded="true" />
+        <AssociationConnector Association="OnlineShopModel.FK_Category_Language" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlineShopModel.FK_Content_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlineShopModel.FK_Content_Language" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlineShopModel.FK_ContentTag_Content1" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlineShopModel.FK_ContentTag_Tag1" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlineShopModel.FK_Credential_Role" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlineShopModel.FK_Credential_UserGroup" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlineShopModel.FK_Menu_MenuType" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlineShopModel.FK_OrderDetail_Order" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlineShopModel.FK_OrderDetail_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlineShopModel.FK_Product_ProductCategory" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlineShopModel.FK_User_UserGroup" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

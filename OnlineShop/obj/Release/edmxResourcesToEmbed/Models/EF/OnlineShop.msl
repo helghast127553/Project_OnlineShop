@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="OnlineShopModelStoreContainer" CdmEntityContainer="OnlineShopEntities">
+    <EntitySetMapping Name="Abouts">
+      <EntityTypeMapping TypeName="OnlineShopModel.About">
+        <MappingFragment StoreEntitySet="About">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="MetaTitle" ColumnName="MetaTitle" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Image" ColumnName="Image" />
+          <ScalarProperty Name="Detail" ColumnName="Detail" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="ModifieldDate" ColumnName="ModifieldDate" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+          <ScalarProperty Name="MetaKeywords" ColumnName="MetaKeywords" />
+          <ScalarProperty Name="MetaDescriptions" ColumnName="MetaDescriptions" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Categories">
+      <EntityTypeMapping TypeName="OnlineShopModel.Category">
+        <MappingFragment StoreEntitySet="Category">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="MetaTitle" ColumnName="MetaTitle" />
+          <ScalarProperty Name="ParentID" ColumnName="ParentID" />
+          <ScalarProperty Name="DisplayOrder" ColumnName="DisplayOrder" />
+          <ScalarProperty Name="SeoTitle" ColumnName="SeoTitle" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="ModifieldDate" ColumnName="ModifieldDate" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+          <ScalarProperty Name="MetaKeywords" ColumnName="MetaKeywords" />
+          <ScalarProperty Name="MetaDescriptions" ColumnName="MetaDescriptions" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="ShowOnHome" ColumnName="ShowOnHome" />
+          <ScalarProperty Name="Language" ColumnName="Language" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Contacts">
+      <EntityTypeMapping TypeName="OnlineShopModel.Contact">
+        <MappingFragment StoreEntitySet="Contact">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Content" ColumnName="Content" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Contents">
+      <EntityTypeMapping TypeName="OnlineShopModel.Content">
+        <MappingFragment StoreEntitySet="Content">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="MetaTitle" ColumnName="MetaTitle" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Image" ColumnName="Image" />
+          <ScalarProperty Name="CategoryID" ColumnName="CategoryID" />
+          <ScalarProperty Name="Detail" ColumnName="Detail" />
+          <ScalarProperty Name="Warrantly" ColumnName="Warrantly" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="ModifieldDate" ColumnName="ModifieldDate" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+          <ScalarProperty Name="MetaKeywords" ColumnName="MetaKeywords" />
+          <ScalarProperty Name="MetaDescriptions" ColumnName="MetaDescriptions" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="TopHot" ColumnName="TopHot" />
+          <ScalarProperty Name="ViewCount" ColumnName="ViewCount" />
+          <ScalarProperty Name="Tags" ColumnName="Tags" />
+          <ScalarProperty Name="Language" ColumnName="Language" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ContentTags">
+      <EntityTypeMapping TypeName="OnlineShopModel.ContentTag">
+        <MappingFragment StoreEntitySet="ContentTag">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ContentID" ColumnName="ContentID" />
+          <ScalarProperty Name="TagID" ColumnName="TagID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Credentials">
+      <EntityTypeMapping TypeName="OnlineShopModel.Credential">
+        <MappingFragment StoreEntitySet="Credential">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="UserGroupID" ColumnName="UserGroupID" />
+          <ScalarProperty Name="RoleID" ColumnName="RoleID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FeedBacks">
+      <EntityTypeMapping TypeName="OnlineShopModel.FeedBack">
+        <MappingFragment StoreEntitySet="FeedBack">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Content" ColumnName="Content" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Footers">
+      <EntityTypeMapping TypeName="OnlineShopModel.Footer">
+        <MappingFragment StoreEntitySet="Footer">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Content" ColumnName="Content" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Languages">
+      <EntityTypeMapping TypeName="OnlineShopModel.Language">
+        <MappingFragment StoreEntitySet="Language">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="IsDefault" ColumnName="IsDefault" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Menus">
+      <EntityTypeMapping TypeName="OnlineShopModel.Menu">
+        <MappingFragment StoreEntitySet="Menu">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Text" ColumnName="Text" />
+          <ScalarProperty Name="Link" ColumnName="Link" />
+          <ScalarProperty Name="DisplayOrder" ColumnName="DisplayOrder" />
+          <ScalarProperty Name="Target" ColumnName="Target" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="TypeID" ColumnName="TypeID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MenuTypes">
+      <EntityTypeMapping TypeName="OnlineShopModel.MenuType">
+        <MappingFragment StoreEntitySet="MenuType">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Orders">
+      <EntityTypeMapping TypeName="OnlineShopModel.Order">
+        <MappingFragment StoreEntitySet="Order">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="ShipName" ColumnName="ShipName" />
+          <ScalarProperty Name="ShipMobile" ColumnName="ShipMobile" />
+          <ScalarProperty Name="ShipAddress" ColumnName="ShipAddress" />
+          <ScalarProperty Name="ShipEmail" ColumnName="ShipEmail" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OrderDetails">
+      <EntityTypeMapping TypeName="OnlineShopModel.OrderDetail">
+        <MappingFragment StoreEntitySet="OrderDetail">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Products">
+      <EntityTypeMapping TypeName="OnlineShopModel.Product">
+        <MappingFragment StoreEntitySet="Product">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="MetaTitle" ColumnName="MetaTitle" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Image" ColumnName="Image" />
+          <ScalarProperty Name="MoreImages" ColumnName="MoreImages" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="PromotionPrice" ColumnName="PromotionPrice" />
+          <ScalarProperty Name="IncludeVAT" ColumnName="IncludeVAT" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="CategoryID" ColumnName="CategoryID" />
+          <ScalarProperty Name="Detail" ColumnName="Detail" />
+          <ScalarProperty Name="Warrantly" ColumnName="Warrantly" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="ModifieldDate" ColumnName="ModifieldDate" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+          <ScalarProperty Name="MetaKeywords" ColumnName="MetaKeywords" />
+          <ScalarProperty Name="MetaDescriptions" ColumnName="MetaDescriptions" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="TopHot" ColumnName="TopHot" />
+          <ScalarProperty Name="ViewCount" ColumnName="ViewCount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProductCategories">
+      <EntityTypeMapping TypeName="OnlineShopModel.ProductCategory">
+        <MappingFragment StoreEntitySet="ProductCategory">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="MetaTitle" ColumnName="MetaTitle" />
+          <ScalarProperty Name="ParentID" ColumnName="ParentID" />
+          <ScalarProperty Name="DisplayOrder" ColumnName="DisplayOrder" />
+          <ScalarProperty Name="SeoTitle" ColumnName="SeoTitle" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="ModifieldDate" ColumnName="ModifieldDate" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+          <ScalarProperty Name="MetaKeywords" ColumnName="MetaKeywords" />
+          <ScalarProperty Name="MetaDescriptions" ColumnName="MetaDescriptions" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="ShowOnHome" ColumnName="ShowOnHome" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Roles">
+      <EntityTypeMapping TypeName="OnlineShopModel.Role">
+        <MappingFragment StoreEntitySet="Role">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Slides">
+      <EntityTypeMapping TypeName="OnlineShopModel.Slide">
+        <MappingFragment StoreEntitySet="Slide">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Image" ColumnName="Image" />
+          <ScalarProperty Name="DisplayOrder" ColumnName="DisplayOrder" />
+          <ScalarProperty Name="Link" ColumnName="Link" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="ModifieldDate" ColumnName="ModifieldDate" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SystemConfigs">
+      <EntityTypeMapping TypeName="OnlineShopModel.SystemConfig">
+        <MappingFragment StoreEntitySet="SystemConfig">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Value" ColumnName="Value" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tags">
+      <EntityTypeMapping TypeName="OnlineShopModel.Tag">
+        <MappingFragment StoreEntitySet="Tag">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="OnlineShopModel.User">
+        <MappingFragment StoreEntitySet="User">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="UserGroupID" ColumnName="UserGroupID" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="ProvinceID" ColumnName="ProvinceID" />
+          <ScalarProperty Name="DistrictID" ColumnName="DistrictID" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="ModifieldDate" ColumnName="ModifieldDate" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserGroups">
+      <EntityTypeMapping TypeName="OnlineShopModel.UserGroup">
+        <MappingFragment StoreEntitySet="UserGroup">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

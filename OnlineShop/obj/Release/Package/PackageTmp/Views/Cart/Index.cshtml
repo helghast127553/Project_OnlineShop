@@ -1,0 +1,73 @@
+﻿@model List<OnlineShop.Models.DTO.CartItem>
+@{
+    ViewBag.Title = "Giỏ hàng";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="content">
+    <div class="section group">
+        @if (Model.Count > 0)
+        {
+            <table class="table">
+                <thead>
+                    <tr>
+                        <td scope="col"> Mã sản phẩm </td>
+                        <td scope="col"> Tên sản phẩm </td>
+                        <td scope="col"> Ảnh sản phẩm </td>
+                        <td scope="col"> Số lượng </td>
+                        <td scope="col"> Đơn giá </td>
+                        <td scope="col"> Thành tiền </td>
+                        <td scope="col"></td>
+                    </tr>
+                </thead>
+                <tbody>
+                    @for (int i = 0; i < Model.Count; i++)
+                {
+                        <tr>
+                            <td data-id="@Model[i].ProductID"> @Model[i].ProductID </td>
+                            <td> @Model[i].Name </td>
+                            <td> @Model[i].Image </td>
+                            <td>
+                                <div class="col-lg-5">
+                                    <div class="input-group">
+                                        <span class="input-group-btn">
+                                            <button type="button" class="quantity-left-minus btn btn-danger btn-number" data-id="@Model[i].ProductID" data-type="minus" data-field="">
+                                                <span class="glyphicon glyphicon-minus"></span>
+                                            </button>
+                                        </span>
+                                        <input type="text" id="quantity" data-id="@Model[i].ProductID" name="quantity" class="form-control input-number" value="1" readonly>
+                                        <span class="input-group-btn">
+                                            <button type="button" class="quantity-right-plus btn btn-success btn-number" data-id="@Model[i].ProductID" data-type="plus" data-field="">
+                                                <span class="glyphicon glyphicon-plus"></span>
+                                            </button>
+                                        </span>
+                                    </div>
+                                </div>
+                            </td>
+                            <td> @Model[i].Price.ToString("N0") Đ</td>
+                            <td data-id="@Model[i].ProductID">@Model[i].Total.ToString("N0") Đ</td> 
+                            <td>
+                                @Html.ActionLink("Xóa", "DeleteProduct", "Cart", new { productID = Model[i].ProductID }, new { @class = "btn-delete" })
+                            </td>                         
+                        </tr>
+     
+                    }
+                </tbody>
+            </table>
+            <button id="btnContinue" class="btn"> Tiếp tục mua hàng </button>
+            <button id="btnPayment" class="btn"> Thanh toán </button>
+        }
+        else
+        {
+            <span class="alert alert-danger"> Chưa có sản phẩm nào trong giỏ hàng</span>
+        }
+    </div>
+</div>
+
+@section jsFooter{
+    @Scripts.Render("~/bundle/Cart");
+    @*<script src="~/Assets/Client/js/controller/Cart.js"></script>
+    <script src="~/Assets/Client/js/controller/CartController.js"></script>*@
+}
+
+

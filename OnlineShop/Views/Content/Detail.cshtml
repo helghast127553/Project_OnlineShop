@@ -1,0 +1,28 @@
+﻿@model OnlineShop.Models.EF.Content
+@{
+    ViewBag.Title = "Detail";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="content">
+    <div class="content_top">
+        <div class="heading">
+            <h3>@Model.Name</h3>
+        </div>
+
+        <div class="clear"></div>
+    </div>
+    <div class="section-group">
+        @Html.Raw(HttpUtility.HtmlDecode(Model.Detail))
+        <ul>
+            @{
+                var tags = ViewBag.Tags as List<OnlineShop.Models.EF.Tag>;
+                for (int i = 0; i < tags.Count; i++)
+                {
+                    <li><a href="/tag/@tags[i].ID">@tags[i].Name</a></li>
+                }
+            }
+        </ul>
+    </div>
+</div>
+

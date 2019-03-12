@@ -1,0 +1,99 @@
+﻿@using OnlineShop.Models.DTO
+@model OnlineShop.Models.DTO.OrderDTO
+@{
+    ViewBag.Title = "Thanh toán";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var cart = ViewBag.Cart as List<CartItem>;
+}
+
+<div class="content">
+    <div class="section group">
+        @if (cart.Count > 0)
+        {
+            <table class="table">
+                <thead>
+                    <tr>
+                        <td scope="col"> Mã sản phẩm </td>
+                        <td scope="col"> Tên sản phẩm </td>
+                        <td scope="col"> Ảnh sản phẩm </td>
+                        <td scope="col"> Số lượng </td>
+                        <td scope="col"> Đơn giá </td>
+                        <td scope="col"> Thành tiền </td>
+                        <td scope="col"></td>
+                    </tr>
+                </thead>
+                <tbody>
+                    @for (int i = 0; i < cart.Count; i++)
+                {
+                        <tr>
+                            <td data-id="@cart[i].ProductID"> @cart[i].ProductID </td>
+                            <td> @cart[i].Name </td>
+                            <td> @cart[i].Image </td>
+                            <td>
+                                <div class="col-lg-5">
+                                    <div class="input-group">
+                                        <span class="input-group-btn">
+                                            <button type="button" class="quantity-left-minus btn btn-danger btn-number" data-id="@cart[i].ProductID" data-type="minus" data-field="">
+                                                <span class="glyphicon glyphicon-minus"></span>
+                                            </button>
+                                        </span>
+                                        <input type="text" id="quantity" data-id="@cart[i].ProductID" name="quantity" class="form-control input-number" value="1" readonly>
+                                        <span class="input-group-btn">
+                                            <button type="button" class="quantity-right-plus btn btn-success btn-number" data-id="@cart[i].ProductID" data-type="plus" data-field="">
+                                                <span class="glyphicon glyphicon-plus"></span>
+                                            </button>
+                                        </span>
+                                    </div>
+                                </div>
+                            </td>
+                            <td> @cart[i].Price.ToString("N0") Đ</td>
+                            <td data-id="@cart[i].ProductID">@cart[i].Total.ToString("N0") Đ</td>
+                            <td>
+                               @Html.ActionLink("Xóa", "DeleteProduct", "Cart", new { productID = cart[i].ProductID }, new { @class = "btn-delete" })
+                            </td>
+                        </tr>
+
+                    }
+                </tbody>
+            </table>
+        }
+    </div>
+    
+    <div class="section group">
+        <div class="col-md-6">
+            @using (Html.BeginForm("Payment", "Cart", FormMethod.Post))
+            {
+                @Html.AntiForgeryToken()
+                <div class="form-group">
+                    @Html.LabelFor(model => model.ShipName)
+                    @Html.TextBoxFor(model => model.ShipName, "", new { @class ="form-control" , @autofocus = "autofocus"})
+                    @Html.ValidationMessageFor(model => model.ShipName, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.ShipMobile)
+                    @Html.TextBoxFor(model => model.ShipMobile, "", new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.ShipMobile, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.ShipAddress)
+                    @Html.TextBoxFor(model => model.ShipAddress, "", new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.ShipAddress, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.ShipEmail)
+                    @Html.TextBoxFor(model => model.ShipEmail, "", new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.ShipEmail, "", new { @class = "text-danger" })
+                </div>
+
+                <button type="submit" class="btn btn-primary">Gửi đơn hàng</button>
+            }
+        </div>
+    </div>
+</div>
+
+
+
+

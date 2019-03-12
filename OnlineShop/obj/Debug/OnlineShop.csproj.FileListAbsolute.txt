@@ -1,0 +1,302 @@
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\ApplicationInsights.config
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\roslyn\csc.exe
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\roslyn\System.Collections.Immutable.dll
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\roslyn\vbc.exe
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\roslyn\VBCSCompiler.exe
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\roslyn\VBCSCompiler.exe.config
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\OnlineShop.dll.config
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\OnlineShop.dll
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\OnlineShop.pdb
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\Antlr3.Runtime.dll
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\EntityFramework.dll
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\EntityFramework.SqlServer.dll
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.AI.Web.dll
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.AI.WindowsServer.dll
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.ApplicationInsights.dll
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.Owin.dll
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.dll
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Google.dll
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.Web.Infrastructure.dll
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\Newtonsoft.Json.dll
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\Owin.dll
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\System.Web.Helpers.dll
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\System.Web.Mvc.dll
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\System.Web.Optimization.dll
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\System.Web.Razor.dll
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\System.Web.WebPages.Deployment.dll
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\System.Web.WebPages.dll
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\System.Web.WebPages.Razor.dll
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\WebGrease.dll
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.AI.Web.xml
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.AI.WindowsServer.xml
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.ApplicationInsights.xml
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\System.Web.Helpers.xml
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\System.Web.Mvc.xml
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\System.Web.Optimization.xml
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\System.Web.Razor.xml
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\System.Web.WebPages.xml
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\System.Web.WebPages.Deployment.xml
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\System.Web.WebPages.Razor.xml
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\Antlr3.Runtime.pdb
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\Newtonsoft.Json.xml
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\EntityFramework.xml
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\EntityFramework.SqlServer.xml
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.Owin.xml
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.xml
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Google.xml
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\obj\Debug\OnlineShop.dll
+c:\users\dark knight\documents\visual studio 2015\Projects\OnlineShop\OnlineShop\obj\Debug\OnlineShop.pdb
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\ApplicationInsights.config
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\roslyn\csc.exe
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\roslyn\vbc.exe
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\roslyn\VBCSCompiler.exe
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\OnlineShop.dll.config
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\OnlineShop.dll
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\OnlineShop.pdb
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\Antlr3.Runtime.dll
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\EntityFramework.dll
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\EntityFramework.SqlServer.dll
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.AI.Web.dll
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.Owin.dll
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.dll
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\Newtonsoft.Json.dll
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\Owin.dll
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\System.Web.Helpers.dll
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\System.Web.Mvc.dll
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\System.Web.Optimization.dll
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\System.Web.Razor.dll
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\System.Web.WebPages.dll
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\System.Web.WebPages.Razor.dll
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\WebGrease.dll
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.AI.Web.xml
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\System.Web.Helpers.xml
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\System.Web.Mvc.xml
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\System.Web.Optimization.xml
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\System.Web.Razor.xml
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\System.Web.WebPages.xml
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\System.Web.WebPages.Razor.xml
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\Antlr3.Runtime.pdb
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\Newtonsoft.Json.xml
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\EntityFramework.xml
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\EntityFramework.SqlServer.xml
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.Owin.xml
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.xml
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\obj\Debug\OnlineShop.dll
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\obj\Debug\OnlineShop.pdb
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\obj\Debug\OnlineShop.csprojResolveAssemblyReference.cache
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\BotDetect.dll
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\BotDetect.Web.Mvc.dll
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\System.Data.SQLite.dll
+C:\Users\Nghia\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\System.Data.SQLite.xml
+C:\Users\Dark Knight\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\BotDetect.dll
+C:\Users\Dark Knight\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\BotDetect.Web.Mvc.dll
+C:\Users\Dark Knight\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\System.Data.SQLite.dll
+C:\Users\Dark Knight\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\System.Data.SQLite.xml
+C:\Users\Dark Knight\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\Facebook.dll
+C:\Users\Dark Knight\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\Facebook.xml
+C:\Users\Dark Knight\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\en\OnlineShop.resources.dll
+C:\Users\Dark Knight\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\obj\Debug\OnlineShop.StaticResources.Resources.resources
+C:\Users\Dark Knight\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\obj\Debug\OnlineShop.StaticResources.Resources.en.resources
+C:\Users\Dark Knight\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\obj\Debug\OnlineShop.csproj.GenerateResource.Cache
+C:\Users\Dark Knight\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\obj\Debug\en\OnlineShop.resources.dll
+C:\Users\Dark Knight\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\bin\System.Data.SQLite.dll.config
+C:\Users\Dark Knight\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\obj\Debug\OnlineShop.csprojAssemblyReference.cache
+C:\Users\Dark Knight\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\obj\Debug\OnlineShop.csproj.CoreCompileInputs.cache
+C:\Users\Dark Knight\Documents\Visual Studio 2015\Projects\OnlineShop\OnlineShop\obj\Debug\OnlineShop.csproj.CopyComplete
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\obj\Debug\OnlineShop.csproj.CoreCompileInputs.cache
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\obj\Debug\OnlineShop.dll
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\obj\Debug\OnlineShop.pdb
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\ApplicationInsights.config
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\roslyn\csc.exe
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\roslyn\vbc.exe
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\roslyn\VBCSCompiler.exe
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\OnlineShop.dll.config
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\OnlineShop.dll
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\OnlineShop.pdb
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\Antlr3.Runtime.dll
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\BotDetect.dll
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\BotDetect.Web.Mvc.dll
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\EntityFramework.dll
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\EntityFramework.SqlServer.dll
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\Facebook.dll
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\Microsoft.AI.Web.dll
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\Microsoft.ApplicationInsights.dll
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\Microsoft.Owin.dll
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.dll
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\Newtonsoft.Json.dll
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\Owin.dll
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\System.Data.SQLite.dll
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\System.Web.Helpers.dll
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\System.Web.Mvc.dll
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\System.Web.Optimization.dll
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\System.Web.Razor.dll
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\System.Web.WebPages.Deployment.dll
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\System.Web.WebPages.dll
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\System.Web.WebPages.Razor.dll
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\WebGrease.dll
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\Facebook.xml
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\Microsoft.AI.Web.xml
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\Microsoft.ApplicationInsights.xml
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\System.Data.SQLite.xml
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\System.Data.SQLite.dll.config
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\System.Web.Helpers.xml
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\System.Web.Mvc.xml
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\System.Web.Optimization.xml
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\System.Web.Razor.xml
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\System.Web.WebPages.xml
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\System.Web.WebPages.Deployment.xml
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\System.Web.WebPages.Razor.xml
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\Antlr3.Runtime.pdb
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\EntityFramework.xml
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\EntityFramework.SqlServer.xml
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\obj\Debug\OnlineShop.csproj.CopyComplete
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\Newtonsoft.Json.xml
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\Microsoft.Owin.xml
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.xml
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\Newtonsoft.Json.pdb
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\roslyn\csc.exe.config
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\roslyn\csc.rsp
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\roslyn\csi.exe
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\roslyn\csi.rsp
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\roslyn\System.AppContext.dll
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\roslyn\vbc.exe.config
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\roslyn\vbc.rsp
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\obj\Debug\OnlineShop.csprojAssemblyReference.cache
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\CKFinder.dll
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\CKFinder.pdb
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\StaticResources.dll
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\StaticResources.pdb
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\en\StaticResources.resources.dll
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\PagedList.dll
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\PagedList.Mvc.dll
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\PagedList.xml
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\PagedList.Mvc.xml
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\Microsoft.AI.PerfCounterCollector.xml
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\nghia\source\repos\OnlineShop\OnlineShop\bin\System.Diagnostics.DiagnosticSource.xml

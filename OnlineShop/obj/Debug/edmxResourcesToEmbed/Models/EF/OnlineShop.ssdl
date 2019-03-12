@@ -1,0 +1,490 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="OnlineShopModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="About">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="250" />
+    <Property Name="MetaTitle" Type="varchar" MaxLength="250" />
+    <Property Name="Description" Type="nvarchar" MaxLength="800" />
+    <Property Name="Image" Type="nvarchar" MaxLength="250" />
+    <Property Name="Detail" Type="ntext" />
+    <Property Name="CreatedDate" Type="datetime" StoreGeneratedPattern="Computed" />
+    <Property Name="CreatedBy" Type="varchar" MaxLength="50" />
+    <Property Name="ModifieldDate" Type="datetime" />
+    <Property Name="ModifiedBy" Type="nvarchar" MaxLength="50" />
+    <Property Name="MetaKeywords" Type="nvarchar" MaxLength="250" />
+    <Property Name="MetaDescriptions" Type="nchar" MaxLength="250" />
+    <Property Name="Status" Type="bit" />
+  </EntityType>
+  <EntityType Name="Category">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="250" />
+    <Property Name="MetaTitle" Type="nvarchar" MaxLength="250" />
+    <Property Name="ParentID" Type="int" />
+    <Property Name="DisplayOrder" Type="int" />
+    <Property Name="SeoTitle" Type="nvarchar" MaxLength="250" />
+    <Property Name="CreatedDate" Type="datetime" StoreGeneratedPattern="Computed" />
+    <Property Name="CreatedBy" Type="varchar" MaxLength="50" />
+    <Property Name="ModifieldDate" Type="datetime" />
+    <Property Name="ModifiedBy" Type="nvarchar" MaxLength="50" />
+    <Property Name="MetaKeywords" Type="nvarchar" MaxLength="250" />
+    <Property Name="MetaDescriptions" Type="nchar" MaxLength="250" />
+    <Property Name="Status" Type="bit" />
+    <Property Name="ShowOnHome" Type="bit" />
+    <Property Name="Language" Type="varchar" MaxLength="2" />
+  </EntityType>
+  <EntityType Name="Contact">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Content" Type="ntext" />
+    <Property Name="Status" Type="bit" />
+  </EntityType>
+  <EntityType Name="Content">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="250" />
+    <Property Name="MetaTitle" Type="varchar" MaxLength="250" />
+    <Property Name="Description" Type="nvarchar" MaxLength="800" />
+    <Property Name="Image" Type="nvarchar" MaxLength="250" />
+    <Property Name="CategoryID" Type="int" />
+    <Property Name="Detail" Type="ntext" />
+    <Property Name="Warrantly" Type="int" />
+    <Property Name="CreatedDate" Type="datetime" StoreGeneratedPattern="Computed" />
+    <Property Name="CreatedBy" Type="varchar" MaxLength="50" />
+    <Property Name="ModifieldDate" Type="datetime" />
+    <Property Name="ModifiedBy" Type="nvarchar" MaxLength="50" />
+    <Property Name="MetaKeywords" Type="nvarchar" MaxLength="250" />
+    <Property Name="MetaDescriptions" Type="nchar" MaxLength="250" />
+    <Property Name="Status" Type="bit" />
+    <Property Name="TopHot" Type="datetime" />
+    <Property Name="ViewCount" Type="int" />
+    <Property Name="Tags" Type="nvarchar" MaxLength="500" />
+    <Property Name="Language" Type="varchar" MaxLength="2" />
+  </EntityType>
+  <EntityType Name="ContentTag">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ContentID" Type="int" Nullable="false" />
+    <Property Name="TagID" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Credential">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserGroupID" Type="varchar" MaxLength="20" />
+    <Property Name="RoleID" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="FeedBack">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" />
+    <Property Name="Phone" Type="char" MaxLength="12" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" />
+    <Property Name="Address" Type="nvarchar" MaxLength="50" />
+    <Property Name="Content" Type="nvarchar" MaxLength="250" />
+    <Property Name="CreatedDate" Type="datetime" StoreGeneratedPattern="Computed" />
+    <Property Name="Status" Type="bit" />
+  </EntityType>
+  <EntityType Name="Footer">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Content" Type="ntext" />
+    <Property Name="Status" Type="bit" />
+  </EntityType>
+  <EntityType Name="Language">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="varchar" MaxLength="2" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" />
+    <Property Name="IsDefault" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Menu">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Text" Type="nvarchar" MaxLength="50" />
+    <Property Name="Link" Type="nvarchar" MaxLength="250" />
+    <Property Name="DisplayOrder" Type="int" />
+    <Property Name="Target" Type="nvarchar" MaxLength="50" />
+    <Property Name="Status" Type="bit" />
+    <Property Name="TypeID" Type="int" />
+  </EntityType>
+  <EntityType Name="MenuType">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Order">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CreatedDate" Type="datetime" StoreGeneratedPattern="Computed" />
+    <Property Name="CustomerID" Type="int" />
+    <Property Name="ShipName" Type="nvarchar" MaxLength="50" />
+    <Property Name="ShipMobile" Type="varchar" MaxLength="50" />
+    <Property Name="ShipAddress" Type="nvarchar" MaxLength="50" />
+    <Property Name="ShipEmail" Type="nvarchar" MaxLength="50" />
+    <Property Name="Status" Type="int" />
+  </EntityType>
+  <EntityType Name="OrderDetail">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ProductID" Type="int" />
+    <Property Name="OrderID" Type="int" />
+    <Property Name="Quantity" Type="int" />
+    <Property Name="Price" Type="decimal" Precision="18" Scale="0" />
+  </EntityType>
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="250" />
+    <Property Name="Code" Type="varchar" MaxLength="10" />
+    <Property Name="MetaTitle" Type="varchar" MaxLength="250" />
+    <Property Name="Description" Type="nvarchar" MaxLength="800" />
+    <Property Name="Image" Type="nvarchar" MaxLength="250" />
+    <Property Name="MoreImages" Type="xml" />
+    <Property Name="Price" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="PromotionPrice" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="IncludeVAT" Type="bit" />
+    <Property Name="Quantity" Type="int" />
+    <Property Name="CategoryID" Type="int" />
+    <Property Name="Detail" Type="ntext" />
+    <Property Name="Warrantly" Type="int" />
+    <Property Name="CreatedDate" Type="datetime" StoreGeneratedPattern="Computed" />
+    <Property Name="CreatedBy" Type="varchar" MaxLength="50" />
+    <Property Name="ModifieldDate" Type="datetime" />
+    <Property Name="ModifiedBy" Type="nvarchar" MaxLength="50" />
+    <Property Name="MetaKeywords" Type="nvarchar" MaxLength="250" />
+    <Property Name="MetaDescriptions" Type="nchar" MaxLength="250" />
+    <Property Name="Status" Type="bit" />
+    <Property Name="TopHot" Type="datetime" />
+    <Property Name="ViewCount" Type="int" />
+  </EntityType>
+  <EntityType Name="ProductCategory">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="250" />
+    <Property Name="MetaTitle" Type="nvarchar" MaxLength="250" />
+    <Property Name="ParentID" Type="int" />
+    <Property Name="DisplayOrder" Type="int" />
+    <Property Name="SeoTitle" Type="nvarchar" MaxLength="250" />
+    <Property Name="CreatedDate" Type="datetime" StoreGeneratedPattern="Computed" />
+    <Property Name="CreatedBy" Type="varchar" MaxLength="50" />
+    <Property Name="ModifieldDate" Type="datetime" />
+    <Property Name="ModifiedBy" Type="varchar" MaxLength="50" />
+    <Property Name="MetaKeywords" Type="nvarchar" MaxLength="250" />
+    <Property Name="MetaDescriptions" Type="nchar" MaxLength="250" />
+    <Property Name="Status" Type="bit" />
+    <Property Name="ShowOnHome" Type="bit" />
+  </EntityType>
+  <EntityType Name="Role">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Slide">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Image" Type="nvarchar" MaxLength="50" />
+    <Property Name="DisplayOrder" Type="int" />
+    <Property Name="Link" Type="nvarchar" MaxLength="250" />
+    <Property Name="Description" Type="nvarchar" MaxLength="50" />
+    <Property Name="CreatedDate" Type="datetime" StoreGeneratedPattern="Computed" />
+    <Property Name="CreatedBy" Type="varchar" MaxLength="50" />
+    <Property Name="ModifieldDate" Type="datetime" />
+    <Property Name="ModifiedBy" Type="varchar" MaxLength="50" />
+    <Property Name="Status" Type="bit" />
+  </EntityType>
+  <EntityType Name="SystemConfig">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" />
+    <Property Name="Type" Type="nvarchar" MaxLength="50" />
+    <Property Name="Value" Type="nvarchar" MaxLength="50" />
+    <Property Name="Status" Type="bit" />
+  </EntityType>
+  <EntityType Name="Tag">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" />
+    <Property Name="UserName" Type="varchar" MaxLength="50" />
+    <Property Name="Password" Type="varchar" MaxLength="32" />
+    <Property Name="UserGroupID" Type="varchar" MaxLength="20" />
+    <Property Name="Address" Type="nvarchar" MaxLength="50" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" />
+    <Property Name="Phone" Type="char" MaxLength="12" />
+    <Property Name="ProvinceID" Type="int" />
+    <Property Name="DistrictID" Type="int" />
+    <Property Name="CreatedDate" Type="datetime" StoreGeneratedPattern="Computed" />
+    <Property Name="CreatedBy" Type="varchar" MaxLength="50" />
+    <Property Name="ModifieldDate" Type="datetime" />
+    <Property Name="ModifiedBy" Type="nvarchar" MaxLength="50" />
+    <Property Name="Status" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="UserGroup">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK_Category_Language">
+    <End Role="Language" Type="Self.Language" Multiplicity="0..1" />
+    <End Role="Category" Type="Self.Category" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Language">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Category">
+        <PropertyRef Name="Language" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Content_Category">
+    <End Role="Category" Type="Self.Category" Multiplicity="0..1" />
+    <End Role="Content" Type="Self.Content" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Category">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Content">
+        <PropertyRef Name="CategoryID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Content_Language">
+    <End Role="Language" Type="Self.Language" Multiplicity="0..1" />
+    <End Role="Content" Type="Self.Content" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Language">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Content">
+        <PropertyRef Name="Language" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ContentTag_Content1">
+    <End Role="Content" Type="Self.Content" Multiplicity="1" />
+    <End Role="ContentTag" Type="Self.ContentTag" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Content">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="ContentTag">
+        <PropertyRef Name="ContentID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ContentTag_Tag1">
+    <End Role="Tag" Type="Self.Tag" Multiplicity="1" />
+    <End Role="ContentTag" Type="Self.ContentTag" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tag">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="ContentTag">
+        <PropertyRef Name="TagID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Credential_Role">
+    <End Role="Role" Type="Self.Role" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Credential" Type="Self.Credential" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Role">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Credential">
+        <PropertyRef Name="RoleID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Credential_UserGroup">
+    <End Role="UserGroup" Type="Self.UserGroup" Multiplicity="0..1" />
+    <End Role="Credential" Type="Self.Credential" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserGroup">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Credential">
+        <PropertyRef Name="UserGroupID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Menu_MenuType">
+    <End Role="MenuType" Type="Self.MenuType" Multiplicity="0..1" />
+    <End Role="Menu" Type="Self.Menu" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MenuType">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Menu">
+        <PropertyRef Name="TypeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OrderDetail_Order">
+    <End Role="Order" Type="Self.Order" Multiplicity="0..1" />
+    <End Role="OrderDetail" Type="Self.OrderDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Order">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="OrderDetail">
+        <PropertyRef Name="OrderID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OrderDetail_Product">
+    <End Role="Product" Type="Self.Product" Multiplicity="0..1" />
+    <End Role="OrderDetail" Type="Self.OrderDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Product">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="OrderDetail">
+        <PropertyRef Name="ProductID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Product_ProductCategory">
+    <End Role="ProductCategory" Type="Self.ProductCategory" Multiplicity="0..1" />
+    <End Role="Product" Type="Self.Product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ProductCategory">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Product">
+        <PropertyRef Name="CategoryID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_User_UserGroup">
+    <End Role="UserGroup" Type="Self.UserGroup" Multiplicity="0..1" />
+    <End Role="User" Type="Self.User" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserGroup">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="User">
+        <PropertyRef Name="UserGroupID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="OnlineShopModelStoreContainer">
+    <EntitySet Name="About" EntityType="Self.About" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Category" EntityType="Self.Category" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Contact" EntityType="Self.Contact" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Content" EntityType="Self.Content" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ContentTag" EntityType="Self.ContentTag" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Credential" EntityType="Self.Credential" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="FeedBack" EntityType="Self.FeedBack" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Footer" EntityType="Self.Footer" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Language" EntityType="Self.Language" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Menu" EntityType="Self.Menu" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MenuType" EntityType="Self.MenuType" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Order" EntityType="Self.Order" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="OrderDetail" EntityType="Self.OrderDetail" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Product" EntityType="Self.Product" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ProductCategory" EntityType="Self.ProductCategory" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Role" EntityType="Self.Role" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Slide" EntityType="Self.Slide" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SystemConfig" EntityType="Self.SystemConfig" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tag" EntityType="Self.Tag" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="User" EntityType="Self.User" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UserGroup" EntityType="Self.UserGroup" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Category_Language" Association="Self.FK_Category_Language">
+      <End Role="Language" EntitySet="Language" />
+      <End Role="Category" EntitySet="Category" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Content_Category" Association="Self.FK_Content_Category">
+      <End Role="Category" EntitySet="Category" />
+      <End Role="Content" EntitySet="Content" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Content_Language" Association="Self.FK_Content_Language">
+      <End Role="Language" EntitySet="Language" />
+      <End Role="Content" EntitySet="Content" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ContentTag_Content1" Association="Self.FK_ContentTag_Content1">
+      <End Role="Content" EntitySet="Content" />
+      <End Role="ContentTag" EntitySet="ContentTag" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ContentTag_Tag1" Association="Self.FK_ContentTag_Tag1">
+      <End Role="Tag" EntitySet="Tag" />
+      <End Role="ContentTag" EntitySet="ContentTag" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Credential_Role" Association="Self.FK_Credential_Role">
+      <End Role="Role" EntitySet="Role" />
+      <End Role="Credential" EntitySet="Credential" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Credential_UserGroup" Association="Self.FK_Credential_UserGroup">
+      <End Role="UserGroup" EntitySet="UserGroup" />
+      <End Role="Credential" EntitySet="Credential" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Menu_MenuType" Association="Self.FK_Menu_MenuType">
+      <End Role="MenuType" EntitySet="MenuType" />
+      <End Role="Menu" EntitySet="Menu" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OrderDetail_Order" Association="Self.FK_OrderDetail_Order">
+      <End Role="Order" EntitySet="Order" />
+      <End Role="OrderDetail" EntitySet="OrderDetail" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OrderDetail_Product" Association="Self.FK_OrderDetail_Product">
+      <End Role="Product" EntitySet="Product" />
+      <End Role="OrderDetail" EntitySet="OrderDetail" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Product_ProductCategory" Association="Self.FK_Product_ProductCategory">
+      <End Role="ProductCategory" EntitySet="ProductCategory" />
+      <End Role="Product" EntitySet="Product" />
+    </AssociationSet>
+    <AssociationSet Name="FK_User_UserGroup" Association="Self.FK_User_UserGroup">
+      <End Role="UserGroup" EntitySet="UserGroup" />
+      <End Role="User" EntitySet="User" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

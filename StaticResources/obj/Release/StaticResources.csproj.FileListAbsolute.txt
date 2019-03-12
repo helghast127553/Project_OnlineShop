@@ -1,0 +1,11 @@
+C:\Users\nghia\source\repos\OnlineShop\StaticResources\bin\Release\StaticResources.dll
+C:\Users\nghia\source\repos\OnlineShop\StaticResources\bin\Release\StaticResources.pdb
+C:\Users\nghia\source\repos\OnlineShop\StaticResources\bin\Release\en\StaticResources.resources.dll
+C:\Users\nghia\source\repos\OnlineShop\StaticResources\obj\Release\StaticResources.csprojAssemblyReference.cache
+C:\Users\nghia\source\repos\OnlineShop\StaticResources\obj\Release\StaticResources.Resources.resources
+C:\Users\nghia\source\repos\OnlineShop\StaticResources\obj\Release\StaticResources.Resources.en.resources
+C:\Users\nghia\source\repos\OnlineShop\StaticResources\obj\Release\StaticResources.csproj.GenerateResource.cache
+C:\Users\nghia\source\repos\OnlineShop\StaticResources\obj\Release\StaticResources.csproj.CoreCompileInputs.cache
+C:\Users\nghia\source\repos\OnlineShop\StaticResources\obj\Release\en\StaticResources.resources.dll
+C:\Users\nghia\source\repos\OnlineShop\StaticResources\obj\Release\StaticResources.dll
+C:\Users\nghia\source\repos\OnlineShop\StaticResources\obj\Release\StaticResources.pdb

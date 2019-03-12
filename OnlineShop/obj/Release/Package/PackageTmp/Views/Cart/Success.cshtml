@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewBag.Title = "Success";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="alert alert-success">
+    Bạn vừa mua hàng thành công.
+</div>
+
+<div class="buttonHolder">
+    <p class="btn btn-success">
+        @Html.ActionLink("Trở về trang chủ", "Index", "Home")
+    </p>
+</div>
+
+<style>
+    div{
+        text-align: center;
+    }
+
+    div p{
+       color: white;
+    }
+</style>
+

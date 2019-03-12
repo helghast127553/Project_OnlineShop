@@ -1,0 +1,16 @@
+﻿@using OnlineShop.Common
+@using OnlineShop.Models.DTO
+
+@{
+    var sessionCart = Session[CommonConstants.CART_SESSION] as List<CartItem>;
+    var totalQuantity = sessionCart == null ? 0 : sessionCart.Count;
+}
+<div class="cart">
+    <p>
+        Chào mừng bạn đến với website
+        <a href="/gio-hang">
+            <span>Giỏ hàng:</span>
+            @totalQuantity sản phẩm
+        </a>
+    </p>
+</div>
